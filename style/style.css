@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    text-align: center;
+    width: 100%;
+    background: url("calculator.jpg") center;
+    margin: 0 auto;
+  }
+  
+  h1 {
+      color: black;
+      font-size: 40px;
+      text-shadow: 7px 2px 3px #A4AAA7;
+  }
+  
+  table {
+      margin: 0 auto;
+  }
+  
+  input {
+      width: 421px;
+      font-size: 25px;
+      padding: 15px;
+      text-align: right;
+  }
+  
+  button {
+      width: 100px;
+      font-size: 20px;
+      padding: 15px;
+      background: transparent;
+      color: black
+  }
+  
+  #result {
+      height: 232px;
+      background: lightgray;
+  }
+
+  #calc {
+    width: 100px;
+    font-size: 20px;
+    padding: 15px;
+    background: lightgray;
+    color: black
+  }
+
+ .signUp:hover {
+    border: solid 2px gray;
+  }
+
+ .numberUp:hover {
+    border: solid 2px lightblue;
+ }
