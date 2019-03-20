@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <title>Calculadora SkylabCoders</title>
+</head>
+<body>
+	<h1>Calculator</h1>
+	<table >
+		<tr>
+			<td colspan="4">
+				<input type="text" id="display" placeholder="0">
+			</td>
+        </tr>
+        <tr id="calc">
+            <td><button id="subs" class="signUp" value="/" onclick="display.value += '/'">/</button></td>
+            <td><button id="mult"  class="signUp" value="*" onclick="display.value += '*'">x</button></td>
+            <td><button id="minus" class="signUp" value="-" onclick="display.value += '-'">-</button></td>
+            <td><button id="plus"  class="signUp" value="+" onclick="display.value += '+'">+</button></td>			
+		</tr>
+		<tr>
+			<td><button id="7" class="numberUp" value="7" onclick="display.value += '7'">7</button></td>
+            <td><button id="8" class="numberUp" value="8" onclick="display.value += '8'">8</button></td>
+			<td><button id="9" class="numberUp" value="9" onclick="display.value += '9'">9</button></td>
+			<td rowspan="4"><button id="result" class="signUp" value="=" onclick="calculator()">=</td>
+		</tr>
+		<tr>
+			<td><button id="6" class="numberUp" value="6" onclick="display.value += '6'">6</button></td>
+			<td><button id="5" class="numberUp" value="5" onclick="display.value += '5'">5</button></td>
+			<td><button id="4" class="numberUp" value="4" onclick="display.value += '4'">4</button></td>
+			
+		</tr>
+		<tr>
+			<td><button id="3" class="numberUp" value="3" onclick="display.value += '3'">3</button></td>
+			<td><button id="2" class="numberUp" value="2" onclick="display.value += '2'">2</button></td>
+			<td><button id="1" class="numberUp" value="1" onclick="display.value += '1'">1</button></td>
+			
+		</tr>
+		<tr>
+			<td><button id="0" class="numberUp" value="0" onclick="display.value += '0'">0</button></td>
+			<td><button id="decimal" class="numberUp" value="" onclick="display.value += '.'">.</button></td>
+			<td><button id="clear" class="numberUp" value="" onclick="display.value = ''">c</button></td>			
+        </tr>
+	</table>
+	<ul id="results"></ul>
+	</div>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
